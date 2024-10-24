@@ -1,0 +1,11 @@
+{
+  "$schema": "./.lang.schema.json",
+  "nepattern": {
+    "type_error": "type {type} of parameter {target} is incorrect; expected {expected}",
+    "content_error": "parameter {target} is incorrect; expected {expected}",
+    "validate_error": "validate {target} failed",
+    "sequence_form_error": "incorrect sequence form: {target}",
+    "validate_reject": "validate {target} failed",
+    "pattern_head_or_tail_error": "the head or tail of regular expression {target} is not allowed to use '^' or '$'"
+  }
+}

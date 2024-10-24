@@ -1,0 +1,12 @@
+{
+  "$schema": "./.lang.schema.json",
+  "lang": {
+    "error": {
+      "locale": "'{target}' 不是合法的语种",
+      "scope": "'{target}' 在 '{locale}' 中不是合法的域名",
+      "type": "'{target}' 在 '{locale}:{scope}' 不是合法的类型"
+    },
+    "miss_require_scope": "语言文件 '{locale}' 缺少需求的域名 '{target}'",
+    "miss_require_type": "语言文件 '{locale}' 的 '{scope}' 缺少需求的内容 '{target}'"
+  }
+}

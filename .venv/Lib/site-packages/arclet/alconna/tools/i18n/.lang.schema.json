@@ -1,0 +1,97 @@
+{
+  "title": "Lang Schema",
+  "description": "Schema for lang file",
+  "type": "object",
+  "minProperties": 2,
+  "maxProperties": 2,
+  "properties": {
+    "tools": {
+      "title": "Tools",
+      "description": "Scope 'tools' of lang item",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "actions.inclusion": {
+          "title": "actions.inclusion",
+          "description": "value of lang item type 'actions.inclusion'",
+          "type": "string"
+        },
+        "actions.exclusion": {
+          "title": "actions.exclusion",
+          "description": "value of lang item type 'actions.exclusion'",
+          "type": "string"
+        },
+        "actions.cooldown": {
+          "title": "actions.cooldown",
+          "description": "value of lang item type 'actions.cooldown'",
+          "type": "string"
+        },
+        "construct.decorate_error": {
+          "title": "construct.decorate_error",
+          "description": "value of lang item type 'construct.decorate_error'",
+          "type": "string"
+        },
+        "construct.format_error": {
+          "title": "construct.format_error",
+          "description": "value of lang item type 'construct.format_error'",
+          "type": "string"
+        },
+        "construct.func_name_error": {
+          "title": "construct.func_name_error",
+          "description": "value of lang item type 'construct.func_name_error'",
+          "type": "string"
+        },
+        "format.ap.title": {
+          "title": "format.ap.title",
+          "description": "value of lang item type 'format.ap.title'",
+          "type": "string"
+        },
+        "format.ap.notice": {
+          "title": "format.ap.notice",
+          "description": "value of lang item type 'format.ap.notice'",
+          "type": "string"
+        },
+        "format.ap.base": {
+          "title": "format.ap.base",
+          "description": "value of lang item type 'format.ap.base'",
+          "type": "string"
+        },
+        "format.ap.usage": {
+          "title": "format.ap.usage",
+          "description": "value of lang item type 'format.ap.usage'",
+          "type": "string"
+        },
+        "format.ap.example": {
+          "title": "format.ap.example",
+          "description": "value of lang item type 'format.ap.example'",
+          "type": "string"
+        },
+        "format.ap.opt": {
+          "title": "format.ap.opt",
+          "description": "value of lang item type 'format.ap.opt'",
+          "type": "string"
+        },
+        "format.ap.sub": {
+          "title": "format.ap.sub",
+          "description": "value of lang item type 'format.ap.sub'",
+          "type": "string"
+        },
+        "format.md.title": {
+          "title": "format.md.title",
+          "description": "value of lang item type 'format.md.title'",
+          "type": "string"
+        },
+        "pattern.supplier_params_error": {
+          "title": "pattern.supplier_params_error",
+          "description": "value of lang item type 'pattern.supplier_params_error'",
+          "type": "string"
+        },
+        "pattern.flag_error": {
+          "title": "pattern.flag_error",
+          "description": "value of lang item type 'pattern.flag_error'",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

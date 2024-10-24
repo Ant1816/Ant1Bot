@@ -1,0 +1,10 @@
+{
+  "default": "zh-CN",
+  "frozen": [
+    "nbp-uniseg"
+  ],
+  "require": [
+    "nbp-uniseg"
+  ],
+  "name": "nonebot_plugin_uniseg"
+}

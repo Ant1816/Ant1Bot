@@ -1,0 +1,47 @@
+{
+  "title": "Lang Schema",
+  "description": "Schema for lang file",
+  "type": "object",
+  "minProperties": 2,
+  "maxProperties": 2,
+  "properties": {
+    "nepattern": {
+      "title": "Nepattern",
+      "description": "Scope 'nepattern' of lang item",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type_error": {
+          "title": "type_error",
+          "description": "value of lang item type 'type_error'",
+          "type": "string"
+        },
+        "content_error": {
+          "title": "content_error",
+          "description": "value of lang item type 'content_error'",
+          "type": "string"
+        },
+        "validate_error": {
+          "title": "validate_error",
+          "description": "value of lang item type 'validate_error'",
+          "type": "string"
+        },
+        "sequence_form_error": {
+          "title": "sequence_form_error",
+          "description": "value of lang item type 'sequence_form_error'",
+          "type": "string"
+        },
+        "validate_reject": {
+          "title": "validate_reject",
+          "description": "value of lang item type 'validate_reject'",
+          "type": "string"
+        },
+        "pattern_head_or_tail_error": {
+          "title": "pattern_head_or_tail_error",
+          "description": "value of lang item type 'pattern_head_or_tail_error'",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

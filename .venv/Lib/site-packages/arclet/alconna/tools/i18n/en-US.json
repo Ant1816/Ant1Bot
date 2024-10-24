@@ -1,0 +1,21 @@
+{
+  "$schema": "./.lang.schema.json",
+  "tools": {
+    "actions.inclusion": "{target} must be matched",
+    "actions.exclusion": "{left} and {right} cannot be both matched",
+    "actions.cooldown": "Your action is too frequent",
+    "construct.decorate_error": "This action must behind a @xxx.command()",
+    "construct.format_error": "Unidentified segment: {target}",
+    "construct.func_name_error": "function name can not start with '_'",
+    "format.ap.title": "Usage",
+    "format.ap.notice": "Content",
+    "format.ap.base": "Base",
+    "format.ap.usage": "Detail",
+    "format.ap.example": "Example",
+    "format.ap.opt": "Options",
+    "format.ap.sub": "Commands",
+    "format.md.title": "Command",
+    "pattern.supplier_params_error": "Supplier must have 0 or 1 parameter",
+    "pattern.flag_error": "Unknown Flag: {target}"
+  }
+}

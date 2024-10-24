@@ -1,0 +1,17 @@
+
+{
+  "$schema": "./.template.schema.json",
+  "scopes": [
+    {
+      "scope": "nepattern",
+      "types": [
+        "type_error",
+        "content_error",
+        "validate_error",
+        "sequence_form_error",
+        "validate_reject",
+        "pattern_head_or_tail_error"
+      ]
+    }
+  ]
+}

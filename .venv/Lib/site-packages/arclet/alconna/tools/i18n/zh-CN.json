@@ -1,0 +1,21 @@
+{
+  "$schema": "./.lang.schema.json",
+  "tools": {
+    "actions.inclusion": "{target} 必须存在",
+    "actions.exclusion": "{left} 与 {right} 不能同时存在",
+    "actions.cooldown": "操作过于频繁",
+    "construct.decorate_error": "该行为必须在 @xxx.command() 之后",
+    "construct.format_error": "不明字段: {target}",
+    "construct.func_name_error": "函数名不能以 '_' 开头",
+    "format.ap.title": "用法",
+    "format.ap.notice": "内容",
+    "format.ap.base": "基础指令",
+    "format.ap.usage": "细节",
+    "format.ap.example": "样例",
+    "format.ap.opt": "选项",
+    "format.ap.sub": "子命令",
+    "format.md.title": "指令",
+    "pattern.supplier_params_error": "参数数量不匹配",
+    "pattern.flag_error": "不明选项: {target}"
+  }
+}

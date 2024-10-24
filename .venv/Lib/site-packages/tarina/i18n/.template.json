@@ -1,0 +1,20 @@
+{
+  "$schema": "./.template.schema.json",
+  "scopes": [
+    {
+      "scope": "lang",
+      "types": [
+        {
+          "subtype": "error",
+          "types": [
+            "locale",
+            "scope",
+            "type"
+          ]
+        },
+        "miss_require_scope",
+        "miss_require_type"
+      ]
+    }
+  ]
+}

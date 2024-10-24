@@ -1,0 +1,51 @@
+{
+  "title": "Lang Schema",
+  "description": "Schema for lang file",
+  "type": "object",
+  "required": [
+    "lang"
+  ],
+  "properties": {
+    "lang": {
+      "title": "Lang",
+      "description": "Scope 'lang' of lang item",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "error": {
+          "title": "Error",
+          "description": "Scope 'error' of lang item",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "locale": {
+              "title": "locale",
+              "description": "value of lang item type 'locale'",
+              "type": "string"
+            },
+            "scope": {
+              "title": "scope",
+              "description": "value of lang item type 'scope'",
+              "type": "string"
+            },
+            "type": {
+              "title": "type",
+              "description": "value of lang item type 'type'",
+              "type": "string"
+            }
+          }
+        },
+        "miss_require_scope": {
+          "title": "miss_require_scope",
+          "description": "value of lang item type 'miss_require_scope'",
+          "type": "string"
+        },
+        "miss_require_type": {
+          "title": "miss_require_type",
+          "description": "value of lang item type 'miss_require_type'",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

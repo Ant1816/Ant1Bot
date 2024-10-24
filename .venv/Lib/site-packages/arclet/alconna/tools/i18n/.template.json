@@ -1,0 +1,26 @@
+{
+  "$schema": "./.template.schema.json",
+  "scopes": [
+    {
+      "scope": "tools",
+      "types": [
+        "actions.inclusion",
+        "actions.exclusion",
+        "actions.cooldown",
+        "construct.decorate_error",
+        "construct.format_error",
+        "construct.func_name_error",
+        "format.ap.title",
+        "format.ap.notice",
+        "format.ap.base",
+        "format.ap.usage",
+        "format.ap.example",
+        "format.ap.opt",
+        "format.ap.sub",
+        "format.md.title",
+        "pattern.supplier_params_error",
+        "pattern.flag_error"
+      ]
+    }
+  ]
+}

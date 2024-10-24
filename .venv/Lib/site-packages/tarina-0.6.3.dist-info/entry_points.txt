@@ -1,0 +1,2 @@
+[console_scripts]
+tarina-lang = tarina.lang.__main__:main

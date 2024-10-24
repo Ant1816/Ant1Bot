@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: snapshot-phantomjs
+Version: 0.0.3
+Summary: Render pyecharts as image via phantomjs
+Home-page: https://github.com/pyecharts/snapshot-phantomjs
+Author: pyecharts dev team
+Author-email: info@pyecharts.com
+License: MIT
+Download-URL: https://github.com/pyecharts/snapshot-phantomjs/archive/0.0.3.tar.gz
+Keywords: python,pyecharts,chart
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+================================================================================
+snapshot-phantomjs
+================================================================================
+
+.. image:: https://api.travis-ci.org/pyecharts/snapshot-phantomjs.svg
+   :target: http://travis-ci.org/pyecharts/snapshot-phantomjs
+
+.. image:: https://codecov.io/github/pyecharts/snapshot-phantomjs/coverage.png
+   :target: https://codecov.io/github/pyecharts/snapshot-phantomjs
+
+
+.. image:: https://readthedocs.org/projects/snapshot-phantomjs/badge/?version=latest
+   :target: http://snapshot-phantomjs.readthedocs.org/en/latest/
+
+
+Installation
+================================================================================
+
+
+You can install snapshot-phantomjs via pip:
+
+.. code-block:: bash
+
+    $ pip install snapshot-phantomjs
+
+
+or clone it and install it:
+
+.. code-block:: bash
+
+    $ git clone https://github.com/pyecharts/snapshot-phantomjs.git
+    $ cd snapshot-phantomjs
+    $ python setup.py install
+
+Change log
+================================================================================
+
+0.0.3 - 15.04.2019
+--------------------------------------------------------------------------------
+
+update
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Fix missing snapshot.js
+
+0.0.2 - 12.04.2019
+--------------------------------------------------------------------------------
+
+update
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. official release
+
+0.0.1 - 09.04.2019
+--------------------------------------------------------------------------------
+
+first release
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. use selenium driver for rendering pyecharts output as image
+
+
+

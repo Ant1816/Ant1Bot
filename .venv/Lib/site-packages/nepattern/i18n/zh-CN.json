@@ -1,0 +1,11 @@
+{
+  "$schema": "./.lang.schema.json",
+  "nepattern": {
+    "type_error": "参数 {target!r} 的类型 {type} 不正确, 其应该是 {expected!r}",
+    "content_error": "参数 {target!r} 不正确, 其应该符合 {expected!r}",
+    "validate_error": "{target} 校验失败",
+    "sequence_form_error": "不正确的序列形式: {target}",
+    "validate_reject": "{target} 校验失败",
+    "pattern_head_or_tail_error": "不允许正则表达式 {target} 头尾部分使用 '^' 或 '$' "
+  }
+}
