@@ -1,0 +1,14 @@
+[project]
+name = "Ant1Bot"
+version = "0.1.0"
+description = "Ant1Bot"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = ["nonebot_plugin_maimaidx", "nonebot_plugin_jtj", "nonebot_plugin_alconna", "nonebot_plugin_pjsk", "nonebot_plugin_treehelp", "nonebot_plugin_wordle", "nonebot_plugin_admin", "nonebot_plugin_updater", "nonebot-plugin-ACGalaxy", "nonebot_plugin_status", "nonebot_plugin_setu4"]
+plugin_dirs = []
+builtin_plugins = []

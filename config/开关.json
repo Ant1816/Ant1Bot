@@ -1,0 +1,38 @@
+{
+  "1009333478": {
+    "admin": true,
+    "requests": true,
+    "wordcloud": true,
+    "auto_ban": false,
+    "img_check": false,
+    "word_analyze": true,
+    "group_msg": false,
+    "broadcast": false,
+    "particular_e_notice": true,
+    "group_recall": false
+  },
+  "122130047": {
+    "admin": true,
+    "requests": true,
+    "wordcloud": true,
+    "auto_ban": false,
+    "img_check": false,
+    "word_analyze": true,
+    "group_msg": false,
+    "broadcast": true,
+    "particular_e_notice": false,
+    "group_recall": false
+  },
+  "931398079": {
+    "admin": true,
+    "requests": true,
+    "wordcloud": true,
+    "auto_ban": false,
+    "img_check": false,
+    "word_analyze": true,
+    "group_msg": false,
+    "broadcast": true,
+    "particular_e_notice": false,
+    "group_recall": false
+  }
+}
