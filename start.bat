@@ -1,0 +1,3 @@
+nb run
+
+cmd /k
