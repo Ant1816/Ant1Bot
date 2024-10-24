@@ -4,8 +4,12 @@
 
 </div>
 
-<center>小安提Bot</center>
-=
+<div align=center>
+
+# 小安提Bot
+
+</div>
+
 <div align=center>
 
 **基于 [NoneBot2](https://github.com/nonebot/nonebot2) 服务于音游 `舞萌DX` 的QQbot**
@@ -22,11 +26,18 @@
 </div>
 
 ***
-<center>它能干什么</center>
-=
-<center>maimaiDX相关功能</center>
--
 
+<div align=center>
+
+# 它能干什么
+
+</div>
+
+<div align=center>
+
+## maimaiDX相关功能
+
+</div>
 
 | 命令                                             | 功能                            |
 |------------------------------------------------|-------------------------------|
