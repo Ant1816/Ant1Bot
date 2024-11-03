@@ -1,6 +1,6 @@
 <div align=center>
 
-<img src="https://github.com/Ant1816/Ant1816/blob/main/avatar.png" width = "200" height = "200" />
+<img src="https://github.com/Ant1816/Ant1816/blob/main/avatar1.png" width = "200" height = "200" />
 
 </div>
 
