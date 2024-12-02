@@ -25,6 +25,8 @@
 
 </div>
 
+**仓库内文件不是最新 体验最新功能请加群1009333478**
+
 **请提前点击上方Python图标或自行下载安装Python3.12.4**
 
 **部署bot后请自行修改Bot配置文件 `.env` 和Python虚拟环境配置文件 `.venv\pyvenv.cfg` 以及部署NoneBot2环境（相关问题可以查看NoneBot帮助文档）**
