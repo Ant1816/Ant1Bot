@@ -18,6 +18,7 @@
 
 <div align=center>
 
+[![QQ群](https://img.shields.io/badge/QQ群-1009333478-grey)](https://qm.qq.com/q/nGEtbIVpsY)
 [![Python3.12.4](https://img.shields.io/badge/Python-3.12.4-blue)](https://www.python.org/downloads/release/python-3124/)
 [![pipx](https://img.shields.io/badge/pipx-1.7.1-yellow)](https://pipx.pypa.io/stable/)
 [![OneBot](https://img.shields.io/badge/OneBot-v11-brown)](https://github.com/botuniverse/onebot-11)
